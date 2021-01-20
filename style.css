@@ -1,3 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: rgb(216, 244, 245);
 }
+
+/*h1 {
+    font-size: 2.0rem;
+}*/
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-titre {
+    margin: 10px;
+    text-align: center;
+    font-size: 3.0rem;
+    width: 100%;
+    height: 100px;
+}
+
+.container-error {
+    margin: 20px;
+    width: 640px;
+    height: 360px;
+    background-image: url(/404page/assets/island-3028648_640.png);
+}
+
+.container-error:hover {
+    background-image: url(/404page/assets/islandesert.png);
+}
+
+.container-back {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+#notfar {
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding:5px 15px; 
+    font-size: 1.8rem;
+    background:rgb(195, 210, 214); 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
