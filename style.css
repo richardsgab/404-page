@@ -36,11 +36,11 @@ body {
     margin: 20px;
     width: 640px;
     height: 360px;
-    background-image: url(/404page/assets/island-3028648_640.png);
+    background-image: url(/assets/island-3028648_640.png);
 }
 
 .container-error:hover {
-    background-image: url(/404page/assets/islandesert.png);
+    background-image: url(/assets/islandesert.png);
 }
 
 .container-back {
